@@ -1,14 +1,15 @@
 {
-  "name": "js-site",
+  "name": "bankingapp-mock-api",
   "version": "1.0.0",
-  "description": "API fake usando JSON Server para o projeto Tudo Aqui",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start" : "node server.js"
   },
-  "author": "Alexandre Abreu",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.16.2"
   }
 }
