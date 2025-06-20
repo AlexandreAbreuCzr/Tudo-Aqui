@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo Aqui - Login</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <nav>
-            <a href="/index.html" class="titulo"><h1>Tudo Aqui</h1></a>
-              <form class="form" role="search">
+          <a href="index.html" class="titulo"><h1>Tudo Aqui</h1></a>
+            <div class="logo-pesquisa">
+              <form class="form" role="search" data-formpesquisa>
                 <button type="submit" aria-label="Buscar">
                   <!-- Ícone da lupa -->
                   <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </button>
-                <input class="input" placeholder="Pesquisar" required type="search" />
+                <input class="input" placeholder="Pesquisar" required type="search" data-pesquisa/>
                 <button class="reset" type="reset" aria-label="Limpar busca">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -32,11 +32,11 @@
             </div>
           
             <div class="acoes">
-                <a href="/Paginas/carrinho.html" aria-label="Ver carrinho">
-                    <img src="/imgs/Carrinho.png" alt="Ícone de carrinho" style="height: 40px;">
+                <a href="Paginas/carrinho.html" aria-label="Ver carrinho">
+                    <img src="imgs/Carrinho.png" alt="Ícone de carrinho" style="height: 40px;">
                 </a>
-                <a href="/Paginas/cadastro.html" data-entrar>Entrar</a>
-                <a href="/Paginas/anunciar.html">Anunciar</a>
+                <a href="Paginas/cadastro.html" data-entrar>Entrar</a>
+                <a href="Paginas/anunciar.html">Anunciar</a>
             </div>
         </nav>
     </header>
@@ -70,8 +70,8 @@
         <p>© 2025 Tudo Aqui. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="/js/login.js" type="module"></script>
-    <script src="/js/principal.js" type="module"></script>
+    <script src="js/login.js" type="module"></script>
+    <script src="js/principal.js" type="module"></script>
     <script>
         const inputs = document.querySelectorAll('.form-cadastro input');
         const progress = document.getElementById('progress');
