@@ -1,0 +1,23 @@
+{
+  "produtos": [
+    {
+      "idDono": "2",
+      "titulo": "bola",
+      "preco": "10.00",
+      "imagem": "https://i.imgur.com/FD3fw3Q.jpeg",
+      "id": 2
+    }
+  ],
+  "cadastros": [
+    {
+      "nome": "Preto Vargas",
+      "email": "pretovarga@gmail.com",
+      "nascimento": "0001-01-01",
+      "senha": "ACzarnieski",
+      "imagem": "https://i.imgur.com/joUOW22.jpeg",
+      "carrinho": "",
+      "carrinhoQ": "",
+      "id": 2
+    }
+  ]
+}
