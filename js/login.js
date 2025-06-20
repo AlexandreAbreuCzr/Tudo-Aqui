@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const logado = localStorage.getItem('logado') === 'true';
 
   if (logado) {
-    window.location.href = '/index.html';
+    window.location.href = '/Tudo-Aqui/index.html';
   }
 });
 
@@ -40,7 +40,7 @@ async function verificarLogin(event) {
   // Depois que validar o login com sucesso:
   localStorage.setItem('logado', 'true');
   localStorage.setItem('id', usuario.id); // salva só o ID do usuário
-  window.location.href = '/index.html';
+  window.location.href = '/Tudo-Aqui/index.html';
   // Aqui você pode redirecionar, salvar login no localStorage etc.
   // window.location.href = "pagina-logada.html";
 }

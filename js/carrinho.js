@@ -87,4 +87,4 @@ function adicionarEventos(usuarios, usuario, carrinhoIds, quantidades) {
       body: JSON.stringify(dadosAtualizados)
     });
   }
-  mostrarProdutosCarrinho(); // ISSO É ESSENCIAL
+  mostrarProdutosCarrinho();

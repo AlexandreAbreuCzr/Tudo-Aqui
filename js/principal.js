@@ -10,7 +10,7 @@ formBusca.addEventListener('submit', function(evento){
 
     if (dadosBusca) {
         // redireciona com o termo na URL
-        window.location.href = `/Paginas/busca.html?busca=${encodeURIComponent(dadosBusca)}`;
+        window.location.href = `/Tudo-Aqui/Paginas/busca.html?busca=${encodeURIComponent(dadosBusca)}`;
     }
 });
 
@@ -24,7 +24,7 @@ async function mudaFoto() {
 
         if (usuario && entrar) {
             entrar.innerHTML = `<img src="${usuario.imagem}" alt="${usuario.nome}" style="width: 40px; height: 40px; border-radius: 50%;"> ${usuario.nome}`;
-            entrar.href = "/Paginas/voce.html";
+            entrar.href = "/Tudo-Aqui/Paginas/voce.html";
         }
     }
 }

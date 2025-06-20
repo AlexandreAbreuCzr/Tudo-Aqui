@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const logado = localStorage.getItem('logado') === 'true';
   
     if (logado) {
-      window.location.href = '/index.html';
+      window.location.href = '/Tudo-Aqui/index.html';
     }
   });
 
@@ -66,7 +66,7 @@ async function adicionarValores(nome, email, nascimento, senha) {
         email,
         nascimento,
         senha,
-        imagem: "/imgs/user.png"
+        imagem: "/Tudo-Aqui/imgs/user.png"
     });
 
     alert('Cadastro enviado com sucesso!');

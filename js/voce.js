@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const logado = localStorage.getItem('logado') === 'true';
     
     if (!logado) {
-      window.location.href = '/Paginas/cadastro.html';
+      window.location.href = '/Tudo-Aqui/Paginas/cadastro.html';
     }
   });
   
@@ -67,6 +67,6 @@ function deslogar() {
     if (resposta) {
         localStorage.removeItem('logado');
         localStorage.removeItem('id');
-        window.location.href = '/index.html';
+        window.location.href = '/Tudo-Aqui/index.html';
     }
 }
