@@ -79,7 +79,7 @@ function adicionarEventos(usuarios, usuario, carrinhoIds, quantidades) {
       carrinhoQ: quantidades.join(', ')
     };
   
-    await fetch(`http://localhost:3000/cadastros/${idUsuario}`, {
+    await fetch(`https://tudo-aqui.onrender.com/api/cadastros/${idUsuario}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'

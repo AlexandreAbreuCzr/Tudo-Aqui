@@ -47,7 +47,7 @@ async function adicionarAoCarrinho(idProduto) {
   }
 
   // Atualiza no backend
-  await fetch(`http://localhost:3000/cadastros/${usuario.id}`, {
+  await fetch(`https://tudo-aqui.onrender.com/api/cadastros/${usuario.id}`, {
     method: 'PATCH',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({

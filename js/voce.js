@@ -32,7 +32,7 @@ salvarEndereco.addEventListener('click', async () => {
 }
 
 try {
-    await fetch(`http://localhost:3000/cadastros/${id}`, {
+    await fetch(`https://tudo-aqui.onrender.com/api/cadastros/${id}`, {
         method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ imagem: novaImagem })
